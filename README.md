@@ -7,6 +7,7 @@ waveRange is the zone in the redrawn chart and waveType is suggested wave model.
 Eg 1, 
 
 [waveRange, waveType]  = waveModelSelection('h', 1, 'T', 2, 'H',0.17);
+
 waveType =
 
   1×1 cell array
@@ -19,6 +20,7 @@ waveh = [1 2 1 2];
 waveT = [2 2 2 2];
 
 [waveRange, waveType] = waveModelSelection('H', waveH, 'h', waveh, 'T', waveT)
+
 waveType =
 
   4×1 cell array
