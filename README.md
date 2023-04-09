@@ -1,3 +1,5 @@
+For submission to Coastal Engineeering, the codes and fiure is uploaded to the folder - CodeAndFigure_SubmissionToCE.zip
+
 To cite this work, ZHAO, K., Wang, Y., & LIU, P. L.-F. (2022). APPLICABLE RANGE OF PERIODICAL WAVE THEORIES - UPDATING LE MEHAUTE'S CHART. ICCE 2022. 
 
 Chart for periodic wave solutions is attached. 
