@@ -61,11 +61,15 @@ eta5(:,:,i) = ka.^4.*B51.*cos(theta(i)) ...
 end
 
 eta = eta1+eta2+eta3+eta4+eta5;
+etaRatio2 = eta2(:,:,1)./eta1(:,:,1); %Definition of R2 in the updated manuscript submitted, under review
+etaRatio3 = eta3(:,:,1)./(eta1(:,:,1)+eta2(:,:,1));
+etaRatio4 = eta4(:,:,1)./(eta1(:,:,1)+eta2(:,:,1)+eta3(:,:,1));
+etaRatio5 = eta5(:,:,1)./(eta1(:,:,1)+eta2(:,:,1)+eta3(:,:,1)+eta4(:,:,1));
 
-etaRatio2 = max(abs(eta2),[],3)./max(abs(eta1),[],3);
-etaRatio3 = max(abs(eta3),[],3)./(max(abs(eta1),[],3)+max(abs(eta2),[],3));
-etaRatio4 = max(abs(eta4),[],3)./(max(abs(eta1),[],3)+max(abs(eta2),[],3)+max(abs(eta3),[],3));
-etaRatio5 = max(abs(eta5),[],3)./(max(abs(eta1),[],3)+max(abs(eta2),[],3)+max(abs(eta3),[],3)+max(abs(eta4),[],3));
+% etaRatio2 = max(abs(eta2),[],3)./max(abs(eta1),[],3); %superseded by the results evaluated at crest Line64. 
+% etaRatio3 = max(abs(eta3),[],3)./(max(abs(eta1),[],3)+max(abs(eta2),[],3));
+% etaRatio4 = max(abs(eta4),[],3)./(max(abs(eta1),[],3)+max(abs(eta2),[],3)+max(abs(eta3),[],3));
+% etaRatio5 = max(abs(eta5),[],3)./(max(abs(eta1),[],3)+max(abs(eta2),[],3)+max(abs(eta3),[],3)+max(abs(eta4),[],3));
 
 %% A2 over A1
 % HoverL = Hovera.*aOverL;
