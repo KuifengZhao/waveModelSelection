@@ -1,4 +1,5 @@
 Technical note was accepted in Coastal Engieering in Nov 2023. To cite this work, 
+
 Zhao, K., Wang, Y., & Liu, P. L.-F. (2024). A guide for selecting periodic water wave theories - Le Méhauté (1976)’s graph revisited. Coastal Engineering, 188, 104432. https://doi.org/10.1016/j.coastaleng.2023.104432
 
 
